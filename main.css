@@ -1,11 +1,11 @@
 h1 {
     color: lightseagreen;
-    font-size: 40px;
+    
   }
   
   h3 {
     color: mediumslateblue;
-    font-size: 40px;
+    
   }
   
   body {
@@ -13,7 +13,7 @@ h1 {
     
   }
   p {
-    font-size: 30px;
+    font-size: 25px;
     color: black;
   }
   
