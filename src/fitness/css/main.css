@@ -1,0 +1,28 @@
+body {
+    background: aliceblue;
+  }
+  p {
+    color: black;
+    font-family: cursive;
+  }
+  h1 {
+    font-weight: bold;
+    color: mediumslateblue;
+    text-align: center;
+    text-shadow: -2px 2px lightblue;
+    
+  }
+  image {
+    text-align: center;
+  }
+  h3 {
+    color: #ffbaee;
+    font-family: lucida handwriting;
+   
+  }
+  
+  h4 {
+    color: mediumspringgreen;
+    font-family: lucida handwriting;
+    
+  }
