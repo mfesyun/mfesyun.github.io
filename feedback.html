@@ -2,13 +2,15 @@
 <html>
     <head>
         <title>Feedback On Websites🕸</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/feedback-form.css">
     </head>
     <body>
         <h1>Feedback On Websites🕸</h1>
         <p>
         Here is a comment section where you can offer feedback on my webpages.
         </p>
-        <form
+        <form id="comment-form"
             action="https://formspree.io/f/mqkvnogv"
             method="POST"
             >
@@ -26,7 +28,7 @@
             </label>
             <label>
                 Rate these websites on a scale of 1-10 (1 = the worst, 10 = the best):
-                <input type="text" name="rating-scale">
+                <input type="number" min="1" max="10" name="rating-scale">
             </label>
             <!-- your other form fields go here -->
             <button type="submit">Send</button>

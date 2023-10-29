@@ -1,0 +1,28 @@
+#comment-form {
+    background-color:aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+}
+
+#comment-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#comment-form input[type="text"],
+#comment-form input[type="email"],
+#comment-form input[type="number"],
+#comment-form textarea {
+    width: calc(100%-20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
