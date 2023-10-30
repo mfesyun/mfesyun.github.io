@@ -14,9 +14,7 @@
     font-weight: bold;
 }
 
-#comment-form input[type="text"],
-#comment-form input[type="email"],
-#comment-form input[type="number"],
+#comment-form input,
 #comment-form textarea {
     width: calc(100%-20px);
     padding: 10px;
@@ -25,4 +23,32 @@
     border-radius: 4px;
     box-sizing: border-box;
 
+}
+
+#comment-form button[type="submit"] {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#comment-form button[type="submit"]:hover {
+    background-color: #005f5f;
+}
+@media (max-width: 600px) {
+    #comment-form {
+        padding: 10px;
+    }
+}
+
+#comment-form input,
+comment-form textarea {
+    font-size: 14px;
+}
+
+#comment-form button[type="submit"] {
+    font-size: 14px;
 }
